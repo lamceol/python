@@ -9,22 +9,22 @@ score = float(inp)
 
 # Calculate score
 if score < 0 :
-    print "Errorrr"
+    print "Error1"
     quit()
-    
+
 elif score > 1 :
-    print "Eeeerror"
+    print "Error2"
     quit()
-    
+
 elif score >= 0.9 :
     print "A"
-    
+
 elif score >= 0.8 :
     print "B"
 
 elif score >= 0.7 :
     print "C"
-    
+
 elif score >= 0.6 :
     print "D"
 
