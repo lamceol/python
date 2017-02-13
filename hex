@@ -1,0 +1,12 @@
+# Hex tool
+
+num = raw_input("Enter a number to convert to Hex: ")
+
+try:    
+    num = int(num)
+except:
+    print "Invalid input"
+
+result = hex(num)
+    
+print "Hex is ", result
